@@ -1,0 +1,85 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;/*#1B262C;*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the height of the viewport */
+    margin: 0;
+}
+
+/* Top section styles */
+.top {
+    background-color: #222831; /* Dark grey background */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space between brand and links */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Horizontal padding */
+    height: 50px; /* Set the height of the top section */
+}
+
+/* Brand text styles */
+.top > div:first-child h2 {
+    color: #CAF4FF;
+    margin: 0; /* Remove default margin */
+    font-size: 20px; /* Font size for the brand */
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navigation links container */
+.top > div:last-child {
+    display: flex; /* Flexbox layout for the links */
+    gap: 15px; /* Space between links */
+}
+
+/* Individual link styles */
+.top a {
+    color: #BBE1FA;
+    text-decoration: none;
+    padding: 10px 15px; /* Padding for the links */
+}
+
+.top a:hover {
+    color: #3282B8; /* Change background color on hover */
+    border-radius: 5px; /* Optional: rounded corners on hover */
+}
+
+/* Center body styles */
+.center-body {
+    padding: 20px;
+    margin-left: -80px;
+    flex: 1; /* Allow the center-body to grow and take up remaining space */
+    text-align: left;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set container height to viewport height */
+    
+}
+
+.center-body p {
+    margin-top: -60px;
+    width: 50%;
+    color: #FCE38A;
+    line-height: 1.2;
+    letter-spacing: 1.1px;
+    font-size: large;
+    font-family: "Kalam", cursive;
+}
+
+.center-body p span {
+    font-family: "Dancing Script", cursive;
+    color: #FF2E63;
+    font-size: 4rem;
+
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: #BBE1FA;
+}

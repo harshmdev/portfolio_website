@@ -1,0 +1,98 @@
+.top a:first-child {
+    color: #BBE1FA;
+}
+
+
+.top a:nth-child(2) {
+    color: #3282B8;
+}
+
+.center-body {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh; /* Adjust as needed */
+    text-align: center;
+    padding: 0;
+    margin-top: 5px;
+}
+
+/* Info-box styles */
+.center-body .info-box {
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 20px;
+    font-family: "Dancing Script", cursive;
+    color: #FF2E63;
+    font-size: 4rem;
+    background-color: #222831;
+    border-bottom: 5px solid #FCE38A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Project grid styles */
+.project-grid {
+    display: grid;
+    grid-template-columns: 2fr 6fr; /* Three columns with different widths */
+    gap: 20px; /* Space between grid items */
+    padding-left: 80px; /* 80px gap on the left side */
+    padding-right: 80px; /* 80px gap on the right side */
+    width: calc(100% - 160px); /* Full width minus the total horizontal padding */
+    box-sizing: border-box; /* Ensure padding doesn't affect width calculation */
+    grid-auto-rows: auto;
+
+}
+
+.project-item {
+    display: contents; /* Ensure all children span the grid columns */
+}
+
+.image, .details {
+    padding: 10px;
+    border: 1px solid #ccc; /* Optional: Add border for clarity */
+    background-color: black; /* Background color for each cell */
+    color:#FCE38A;
+    align-items: center;
+}
+.image{
+    padding: 0%;
+}
+.image img {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto;
+}
+
+.details h3 {
+    margin-top: 0; /* Remove default margin for headings */
+    text-align: left;
+}
+
+.details p {
+    font-size: 10px;
+    line-height: 15px;
+    margin: 0;
+}
+
+.details a {
+    color: #3282B8; /* Style for the GitHub link */
+    text-decoration: none;
+}
+
+.details a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: #BBE1FA;
+    width: 100%; /* Full width */
+    position: relative;
+    bottom: 0;
+}

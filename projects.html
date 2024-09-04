@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chivo:ital,wght@0,100..900;1,100..900&family=Concert+One&family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
@@ -34,16 +35,107 @@
       <div class="project-grid">
         <div class="project-item">
           <div class="image">
-            <img src="./public/1702470205367.jpg" alt="Project 1" />
+            <img src="img\extractive_qna.PNG" alt="extractive_qna" />
           </div>
           <div class="details">
-            <h3>End-to-End Laptop Price Prediction Project</h3>
-            <p>
-              Description of the project goes
-              here.akjhfjkfkkjwbfjkbkjwbfkjwbfkjbkfjbwkjfbkj
-            </p>
-            <a href="https://github.com/username/project1" target="_blank">
-              GitHub Link
+            <h3>
+              <a  href="https://huggingface.co/spaces/hmohandev/extractive_qna" target="_blank" > Extractive Question Answering</a>
+            </h3>
+            <ul>
+              <li>Project Overview: Developed an extractive question-answering model capable of identifying the exact span of text that answers a given question from a passage.</li>
+              <li>Model Architecture: Fine-tuned TFAutoModelForQuestionAnswering from the Hugging Face Transformers library.</li>
+              <li>Training Data: Used the SQuAD (Stanford Question Answering Dataset), a well-known benchmark dataset for training and evaluating question-answering models.</li>
+              <li>Platform: Deployed the fine-tuned model on Hugging Face Spaces, allowing users to interact with the model through a user-friendly interface.</li>
+              <li>Results: Achieved accurate and efficient extraction of answers from passages, with the model demonstrating strong performance on various types of questions.</li>
+            </ul>
+            <a href="https://github.com/harshmdev/extractive_qna" target="_blank" class="icon-link">
+              <img src="img/github.png" alt="github-icon" class="github-icon">
+            </a>
+            <a href="https://huggingface.co/spaces/hmohandev/extractive_qna" target="_blank" class="icon-link">
+              <img src="img\icons8-hugging-face-48.png" alt="huggingface" class="medium-icon">
+            </a>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="image">
+            <img src="img/lpp_pic.PNG" alt="laptop project" />
+          </div>
+          <div class="details">
+            <h3>
+              <a  href="https://laptoppricepredictionproject.streamlit.app/" target="_blank" > Laptop Price Prediction Project</a>
+            </h3>
+            <ul>
+              <li>End-to-End Process: Developed a modular machine learning pipeline for laptop price prediction, including data gathering, cleaning, EDA, feature engineering, and model building.</li>
+              <li>Streamlit App: Created an interactive Streamlit app for real-time laptop price predictions, allowing users to input specifications and visualize results.</li>
+              <li>Deployment: Deployed the app on Streamlit Cloud, making it accessible via a web link for broader use.</li>
+              <li>Analytics Integration: Added an analytics module to track user interactions and gather insights for app improvement.</li>
+              <li>Technologies Used: Python, Pandas, Scikit-learn, Streamlit, and Streamlit Cloud for deployment and analytics.</li>
+            </ul>
+            <a href="https://github.com/harshmdev/end-to-end_laptop_project" target="_blank" class="icon-link">
+              <img src="img/github.png" alt="github-icon" class="github-icon">
+            </a>
+            <a href="https://medium.com/@hmohandev/how-battery-capacity-influences-laptop-prices-a-data-driven-analysis-831a39f13cdf" target="_blank" class="icon-link">
+              <img src="img\medium.png" alt="medium-icon" class="medium-icon">
+            </a>
+            <a href="https://www.kaggle.com/datasets/harshmohan29/laptop-raw-dataset/data" target="_blank" class="icon-link">
+              <img src="img\kaggle.png" alt="kaggle-icon" class="kaggle-icon">
+            </a>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="image">
+            <img src="img/movie_recommendation_page.PNG" alt="movie recommendation" />
+          </div>
+          <div class="details">
+            <h3>
+              <a  href="https://github.com/harshmdev/movie_recommendation_project" target="_blank" > Movie Recommendation Project</a>
+            </h3>
+            <ul>
+              <li>Project Overview: Developed an end-to-end movie recommendation system that suggests movies based on various parameters like actors , directors, plot of the movie etc. using cosine similarity between them.</li>
+              <li>Modular Coding: Implemented the project using a modular coding approach, ensuring clean, maintainable, and reusable code.</li>
+              <li>Application: Built the recommendation system using Streamlit, providing an interactive interface for users to explore movie recommendations.</li>
+              <li>End-to-End Workflow: Handled all stages of the machine learning pipeline, from data preprocessing and feature extraction to model development.</li>
+            </ul>
+            <a href="https://github.com/harshmdev/movie_recommendation_project" target="_blank" class="icon-link">
+              <img src="img/github.png" alt="github-icon" class="github-icon">
+            </a>
+            <a href="https://medium.com/@hmohandev/from-oscars-to-cult-classics-what-imdbs-top-10-000-movies-reveal-04d73ba9dc2f" target="_blank" class="icon-link">
+              <img src="img\medium.png" alt="medium-icon" class="medium-icon">
+            </a>
+            <a href="https://www.kaggle.com/datasets/harshmohan29/imdb-top-10000-movies-dataset" target="_blank" class="icon-link">
+              <img src="img\kaggle.png" alt="kaggle-icon" class="kaggle-icon">
+            </a>
+            <a href="https://hub.docker.com/r/harshmdev/movie_recommendation" target="_blank" class="icon-link">
+              <img src="img\docker-mark-white.png" alt="docker-icon" class="kaggle-icon">
+            </a>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="image">
+            <img src="img\fao-eda.PNG" alt="fao-eda" />
+          </div>
+          <div class="details">
+            <h3>
+              <a  href="https://public.tableau.com/shared/D8YFJKB5B?:display_count=n&:origin=viz_share_link" target="_blank" > Global Food Trade Analysis: A Deep Dive into Import-Export Dynamics</a>
+            </h3>
+            <ul>
+              <li>Data Overview: Analyzed global food trade data spanning from 1986 to 2022, covering a wide range of food items and agricultural products.</li>
+              <li>Insights: Uncovered key trends in global food trade, such as dominant regions, shifts in trade volumes, and the impact of specific products on global trade dynamics.</li>
+              <li>Data Cleaning: Managed missing values, standardized categories, and handled large datasets to optimize analysis.</li>
+              <li>Geo Maps: Visualized trade volumes with bubble sizes representing the amount of food traded, differentiated by region and element (import/export).</li>
+              <li>Time Series Analysis: Examined year-wise trends in food imports and exports across different regions.</li>
+            </ul>
+            <a href="https://github.com/harshmdev/fao_eda" target="_blank" class="icon-link">
+              <img src="img/github.png" alt="github-icon" class="github-icon">
+            </a>
+            <a href="https://medium.com/@hmohandev/the-evolution-of-global-trade-insights-from-1986-to-2022-dd72f10f65fd" target="_blank" class="icon-link">
+              <img src="img\medium.png" alt="medium-icon" class="medium-icon">
+            </a>
+            <a href="https://www.kaggle.com/datasets/harshmohan29/india-food-trade-data-from-1986-2022" target="_blank" class="icon-link">
+              <img src="img\kaggle.png" alt="kaggle-icon" class="kaggle-icon">
+            </a>
+            <a href="https://public.tableau.com/shared/D8YFJKB5B?:display_count=n&:origin=viz_share_link" target="_blank" class="icon-link">
+              <img src="img\images.jfif" alt="tableau-icon" class="kaggle-icon">
             </a>
           </div>
         </div>

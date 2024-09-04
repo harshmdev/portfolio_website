@@ -12,7 +12,7 @@
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    height: 70vh; /* Adjust as needed */
+    height: 100vh; /* Adjust as needed */
     text-align: center;
     padding: 0;
     margin-top: 5px;
@@ -21,7 +21,7 @@
 /* Info-box styles */
 .center-body .info-box {
     width: 100%;
-    height: 20vh;
+    height:20vh ;
     margin-bottom: 20px;
     font-family: "Dancing Script", cursive;
     color: #FF2E63;
@@ -45,7 +45,7 @@
     width: calc(100% - 160px); /* Full width minus the total horizontal padding */
     box-sizing: border-box; /* Ensure padding doesn't affect width calculation */
     grid-auto-rows: auto;
-
+ 
 }
 
 .project-item {
@@ -56,26 +56,46 @@
     padding: 10px;
     border: 1px solid #ccc; /* Optional: Add border for clarity */
     background-color: black; /* Background color for each cell */
-    color:#FCE38A;
-    align-items: center;
+    color:#FCE38A ;
+    text-align: left;
 }
 .image{
     padding: 0%;
 }
 .image img {
-    max-width: 100%; /* Ensure image is responsive */
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.details h3 {
-    margin-top: 0; /* Remove default margin for headings */
+
+.details a:first-child {
+    margin-top: 0%; /* Remove default margin for headings */
     text-align: left;
+    text-decoration: underline;
+    color:#FCE38A;
 }
 
-.details p {
-    font-size: 10px;
+.details a:hover {
+    text-decoration: none; /* Example: Remove underline on hover */
+    color: #FF2E63; /* Example: Change color on hover */
+}
+
+.details ul {
+    font-size: 15px;
     line-height: 15px;
-    margin: 0;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #EAEAEA;
+}
+.details ul li {
+    margin-bottom: 7px;
+
+}
+
+.details h3{
+    margin-top: 0%;
 }
 
 .details a {
@@ -87,12 +107,31 @@
     text-decoration: underline;
 }
 
+
+.github-icon {
+    margin-left: 15px;
+    width: 25px;
+    height: auto;
+
+}
+.medium-icon {
+    margin-left: 15px;
+    width: 25px;
+    height: auto;
+}
+.kaggle-icon {
+    margin-left: 15px;
+    width: 25px;
+    height: auto;
+}
+
+
 /* Footer styles */
 .footer {
     text-align: center;
     padding: 10px;
     color: #BBE1FA;
     width: 100%; /* Full width */
-    position: relative;
+    position: absolute;
     bottom: 0;
 }

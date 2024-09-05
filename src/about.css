@@ -8,18 +8,39 @@
 }
 
 .center-body .info-box{
-    height: 40vh;
-    justify-content: left;
-    align-items: center;
+    height: 25vh;
+    align-items: left;
     text-align: right;
     
 }
 
 
 .self-image img {
-    width: 200px;
+    width: 275px;
     height: auto;
     border-radius: 50%;
-    margin-top: -100px;
-    margin-right: -700px;
+    margin:0%;
+    margin-right: 150px;
+}
+
+.abt-me {
+    margin: 0%;
+    display: flex; /* Enables flexbox for side-by-side layout */
+    align-items: center; /* Vertically aligns items in the center */
+    justify-content: space-between; /* Adds space between text and image */
+    width: 100%; /* Full width of the container */
+    margin: 20px 0; /* Adds margin above and below */
+    padding-bottom: 100px;
+}
+
+.abt-me p {
+    width: 60%;
+    margin: 0%;
+    padding-left: 20px; 
+    color: #FCE38A;
+    line-height: 1.2;
+    letter-spacing: 1.1px;
+    font-size: large;
+    font-family: "Kalam", cursive;
+    text-align: right;
 }

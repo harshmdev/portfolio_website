@@ -7,6 +7,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/contact.css" />
     <title>Portfolio Website</title>
   </head>
   <body>
@@ -26,25 +27,22 @@
         <a href="./contact.html">Contact</a>
       </div>
     </div>
-    <div class="center-body">
-      <p>
-        <span>Hi there!!!</span>
-        <br />
-        I'm Harsh Mohan, a passionate data scientist and data analyst on a
-        journey to explore the realms of deep learning and MLOps.I embarked on
-        an exciting career transition into the world of data science and
-        analytics. As a fresher in this field, I'm continuously learning and
-        honing my skills to excel in this dynamic and ever-evolving domain.My
-        current focus lies in mastering deep learning techniques and
-        understanding the intricacies of MLOps to streamline and optimize
-        machine learning workflows.I'm enthusiastic about applying my knowledge
-        to real-world problems.I'm deeply passionate about technology and thrive
-        on challenges. I believe in the power of hard work and dedication to
-        achieve excellence in whatever I pursue.I'm always eager to connect with
-        fellow enthusiasts, collaborate on exciting projects, or discuss
-        opportunities. Feel free to explore my portfolio and reach out—I'd love
-        to hear from you!
-      </p>
+      <div class="container">
+      <div class="left-section">
+        <div id="loading">Loading form...</div>
+        <iframe src="https://forms.gle/DKM4GWwutacVLpT38" id="contactForm" onload="document.getElementById('loading').style.display='none';"></iframe>
+      </div>
+      
+      <div class="right-section">
+        <h3>Connect with Me</h3>
+        <ul class="social-links">
+          <li><a href="www.linkedin.com/in/harshmdev" class="button"><img src="img\linked_in.png" alt="linkedin-icon" class="social-icon">LinkedIn</a></li>
+          <li><a href="https://github.com/harshmdev" class="button"><img src="img/github.png" alt="github-icon" class="social-icon">GitHub</a></li>
+          <li><a href="https://medium.com/@hmohandev" class="button"><img src="img\medium.png" alt="medium-icon" class="social-icon">Medium</a></li>
+          <li><a href="https://www.kaggle.com/harshmohan29" class="button"><img src="img\kaggle.png" alt="kaggle-icon" class="social-icon">Kaggle</a></li>
+          <li><a href="https://huggingface.co/hmohandev" class="button"><img src="img\icons8-hugging-face-48.png" alt="face-icon" class="social-icon">Hugging Face</a></li>
+        </ul>
+      </div>  
     </div>
     <div class="footer">Copyright © 2024</div>
   </body>

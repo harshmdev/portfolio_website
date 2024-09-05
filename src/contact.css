@@ -1,0 +1,104 @@
+.top a:first-child {
+    color: #BBE1FA;
+}
+
+
+.top a:nth-child(5) {
+    color: #3282B8;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .left-section {
+    flex: 1; /* This allows the left section (Google Form) to take up more space */
+    padding-right: 20px;
+    width: 1000px;
+  }
+  
+  .right-section {
+    width: 50%; /* Fixed width for the social handles section */
+    padding-left: 20px;
+    background-color: #6964648f;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  #contactForm {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .right-section h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Dancing Script", cursive;
+    color: #FF2E63;
+    font-size: 3rem;
+  }
+  
+  .social-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    margin-bottom: 10px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .social-links a:hover {
+    color: white;
+  }
+  
+  #loading {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .social-links img{
+    margin-left: 15px;
+    width: 25px;
+    height: auto;
+    justify-content: center; /* Center icon and button horizontally */
+    align-items: center;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px;
+    padding-right: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color:rgba(250, 246, 246, 0);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: 1px solid #BBE1FA;
+  }
+  
+  .button:hover {
+    background-color: #3282B8;
+  }
+  
+  .button:active {
+    background-color: #003f8f;
+  }
+
+  
